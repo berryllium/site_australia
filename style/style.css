@@ -1,0 +1,801 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700&display=swap&subset=cyrillic,cyrillic-ext');
+* {
+    outline: none;
+}
+
+body {
+    font-family: Ubuntu;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #010000;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.container {
+    overflow: hidden;
+    width: 1601px;
+    margin: 0 auto;
+}
+
+.block {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.button {
+    margin-top: 47px;
+    display: block;
+    width: 300px;
+    padding: 22px 3px;
+    border-radius: 30px;
+    background-color: #56e4ff;
+    color: #010000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.05px;
+}
+
+.button:hover {
+    background-color: #baf4ff;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #fff;
+}
+
+header {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 600px;
+    padding-top: 154px;
+    background: url(../img/bg_header.jpg) no-repeat;
+}
+
+header p {
+    margin-top: 19px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.block-reasons {
+    text-align: center;
+    margin-top: 85px;
+}
+
+.block-reasons h2 {
+    margin-bottom: 54px;
+}
+
+.reasons {
+    width: 90%;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.reason {
+    max-width: 135px;
+}
+
+.reason img {
+    margin-bottom: 10px;
+}
+
+.block-flight {
+    margin-top: 139px;
+    margin-bottom: 10px;
+}
+
+.block-flight .text {
+    width: 675px;
+    float: left;
+}
+
+.block-flight h2 {
+    margin-bottom: 34px;
+}
+
+.block-flight p {
+    line-height: 26px;
+    margin-bottom: 49px;
+}
+
+.block-flight ul {
+    height: 132px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    padding: 0;
+}
+
+.block-flight li {
+    display: block;
+    height: 45px;
+    list-style-type: none;
+    padding-left: 38px;
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+}
+
+.block-flight li:nth-child(odd) {
+    width: 262px;
+}
+
+.block-flight li:nth-child(even) {
+    width: 335px;
+}
+
+.block-flight li span:first-child {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.block-flight li span:last-child {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.block-flight li:nth-child(1) {
+    background-image: url(../img/flight-time.png);
+}
+
+.block-flight li:nth-child(2) {
+    background-image: url(../img/air-freight.png);
+}
+
+.block-flight li:nth-child(3) {
+    background-image: url(../img/around.png);
+}
+
+.block-flight li:nth-child(4) {
+    background-image: url(../img/english.png);
+}
+
+.block-flight .img {
+    position: relative;
+    margin-top: 5px;
+    float: right;
+    width: 435px;
+    height: 543px;
+}
+
+.block-flight .img1 {
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/airbus.jpg) no-repeat;
+    z-index: 2;
+}
+
+.block-flight .border {
+    position: absolute;
+    width: 414px;
+    height: 637px;
+    border: 3px solid #56e4ff;
+    left: 65px;
+    top: -50px;
+}
+
+.block-programm {
+    margin-top: 194px;
+}
+
+.block-programm .img {
+    position: relative;
+    margin-top: 5px;
+    float: left;
+    width: 470px;
+    height: 543px;
+}
+
+.block-programm .img1 {
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/program-1.jpg);
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.block-programm .border {
+    position: absolute;
+    width: 444px;
+    height: 637px;
+    border: 3px solid #56e4ff;
+    right: 70px;
+    top: -52px;
+}
+
+.block-programm .text {
+    width: 675px;
+    float: right;
+    margin-top: -3px;
+}
+
+.block-programm .days {
+    float: left;
+    padding: 0;
+    margin-right: 30px;
+}
+
+.block-programm .days li {
+    margin-top: 20px;
+    margin-left: 5px;
+    display: block;
+    list-style-type: none;
+    line-height: 16px;
+    padding: 12px 20px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    transition: 0.3s;
+}
+
+.block-programm li:hover,
+.block-programm li:active,
+.block-programm li.current {
+    border-radius: 3px;
+    background-color: #56e4ff;
+    cursor: pointer;
+}
+
+.shedule {
+    float: right;
+    width: 540px;
+    height: 312px;
+    margin-bottom: 13px;
+    display: none;
+}
+
+.shedule[filter="1"] {
+    display: block;
+}
+
+.shedule h3 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 11px;
+}
+
+.shedule p {
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.shedule span {
+    font-weight: bold;
+    color: #63e6ff
+}
+
+.rentcar {
+    margin-top: 29px;
+    padding-left: 54px;
+    line-height: 24px;
+    background: url(../img/car_1.png) no-repeat;
+    background-position: 5px 5px;
+}
+
+.block-details {
+    margin-top: 135px;
+    text-align: center;
+}
+
+.block-details h2 {
+    margin-bottom: 27px;
+}
+
+.block-details>.flex {
+    margin-right: -34px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.include {
+    height: 357px;
+    padding-left: 96px;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.include h3 {
+    padding-left: 61px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 57px;
+    padding-bottom: 19px;
+    background-position: 0 46px;
+    background-repeat: no-repeat;
+}
+
+.include:first-child h3 {
+    background-image: url(../img/list.png);
+}
+
+.include:last-child h3 {
+    background-image: url(../img/clipboards.png);
+}
+
+.include ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.include li {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 18px;
+    padding-left: 42px;
+    background-repeat: no-repeat;
+}
+
+.include:first-child li {
+    background-position: 0 16px;
+    background-image: url(../img/plus.png);
+}
+
+.include:last-child li {
+    background-position: 0 25px;
+    background-image: url(../img/delete.png);
+}
+
+.include:first-child {
+    width: 570px;
+    border: 3px solid #56e4ff;
+}
+
+.include:last-child {
+    width: 604px;
+    border: 3px solid #000;
+}
+
+.support {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding-top: 83px;
+    padding-left: 315px;
+    height: 329px;
+    background: url(../img/micah-296507-unsplash.jpg) no-repeat;
+}
+
+.support h2 {
+    margin-bottom: 36px;
+}
+
+.support .text p {
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 6px;
+}
+
+.support span {
+    font-weight: 700;
+}
+
+.reports {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 94px;
+}
+
+.reports h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+
+.reports h2+p {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 49px;
+}
+
+.reports h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-bottom: 6px;
+}
+
+.reports .photo {
+    position: relative;
+}
+
+.reports .slick1 {
+    position: relative;
+    width: 1600px;
+    text-align: right;
+    height: 480px;
+    margin-left: -620px;
+    background-color: #fff;
+}
+
+.reports .slide {
+    width: 720px;
+    height: 480px;
+    padding-left: 25px;
+}
+
+.reports .border {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    width: 854px;
+    height: 615px;
+    border: 3px solid #56e4ff;
+    left: 595px;
+    top: 82px;
+    padding-right: 67px;
+}
+
+.reports .text {
+    padding-left: 417px;
+    padding-top: 30px;
+}
+
+.reports .text p {
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.reports .bottom {
+    margin-top: 64px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 319px;
+}
+
+.reports .bottom a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+
+.arrow {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 100px;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.pre,
+.next {
+    cursor: pointer;
+    display: block;
+    width: 30px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+.pre {
+    background-image: url(../img/left-arrow.png);
+}
+
+.next {
+    background-image: url(../img/left-arrow_copy_2.png);
+}
+
+.uniq {
+    margin-top: 304px;
+}
+
+.uniq h2 {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.uniq h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.uniq ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 52px;
+    padding: 0;
+}
+
+.uniq li {
+    display: block;
+    width: 280px;
+    height: 100px;
+    padding-left: 90px;
+    background-repeat: no-repeat;
+    background-position: 0 17px;
+    margin-bottom: 48px;
+}
+
+.uniq span {
+    font-weight: bold;
+}
+
+.uniq p {
+    margin-bottom: 5px;
+    line-height: 23px;
+}
+
+.uniq li:nth-child(1) {
+    background-image: url(../img/brochure.png);
+}
+
+.uniq li:nth-child(2) {
+    background-image: url(../img/map_copy.png);
+}
+
+.uniq li:nth-child(3) {
+    background-image: url(../img/social-care.png);
+}
+
+.uniq li:nth-child(4) {
+    background-image: url(../img/group.png);
+}
+
+.uniq li:nth-child(5) {
+    background-image: url(../img/money.png);
+}
+
+.uniq li:nth-child(6) {
+    background-image: url(../img/contract.png);
+}
+
+.block-photos {
+    margin-top: 41px;
+}
+
+.block-photos h2 {
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.block-photos .photo {
+    position: relative;
+}
+
+.block-photos .slick2 {
+    margin-right: -1px;
+    background-color: #fff;
+}
+
+.block-photos img {
+    width: 270px;
+    max-height: 100%;
+}
+
+.block-photos img:last-child {
+    width: 570px;
+}
+
+.block-photos .left {
+    float: left;
+    width: 571px;
+}
+
+.block-photos .right {
+    float: right;
+    width: 570px;
+    height: 600px;
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block-photos .border {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    border: 3px solid #56e4ff;
+    top: 595px;
+    padding: 31px 96px;
+}
+
+.block-photos a {
+    text-decoration: underline;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+
+.get-programm {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 529px;
+    margin-top: 180px;
+    padding-top: 107px;
+    padding-left: 450px;
+    background: url(../img/tropical-beach_4460x4460.jpg) no-repeat;
+}
+
+.get-programm .form {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 700px;
+    height: 315px;
+    background-color: #fff;
+    padding-top: 31px;
+}
+
+.get-programm h2 {
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.get-programm h3 {
+    text-align: center;
+    color: #010000;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.get-programm .inputs {
+    width: 600px;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+.get-programm .inputs input {
+    display: inline-block;
+    margin-left: 10px;
+    width: 270px;
+    padding: 0 0 5px 0;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #000;
+}
+
+input[type="text"]::-moz-placeholder {
+    color: #000;
+}
+
+input {
+    outline: none;
+}
+
+.get-programm .button {
+    margin: 0 auto;
+    text-transform: uppercase;
+    border: none;
+}
+
+footer {
+    width: 1600px;
+    height: 156px;
+    background-color: #000000;
+}
+
+.footer-content {
+    padding-top: 66px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    /* Style for "Москва, Бо" */
+    font-family: 'M PLUS Rounded 1c';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+footer .soc-links {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    width: 123px;
+}
